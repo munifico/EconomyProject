@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="경제지표">
+        <item>경기선행지수 변동치</item>
+        <item>경상수지</item>
+        <item>기준금리</item>
+        <item>소비자물가지수</item>
+        <item>제조업 출하지수 - 제조업 재고지수(순환지수)</item>
+        <item>원/달러 환율</item>
+    </string-array>
+</resources>

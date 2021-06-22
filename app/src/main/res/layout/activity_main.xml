@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="마켓타이밍 어플" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+            <Button
+                android:id="@+id/oneei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="100대 경제지표"
+                android:textSize="24sp"
+                android:textColor="#333333"
+                android:background="@drawable/backbu"/>
+
+            <Button
+                android:id="@+id/uei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="사용한 경제지표"
+                android:textSize="24sp"
+                android:textColor="#333333"
+                android:background="@drawable/backbu"/>
+            <Button
+                android:id="@+id/kospi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="코스피200 보기"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:textColor="#333333"
+                android:background="@drawable/backbu"/>
+            <Button
+                android:id="@+id/markettiming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="마켓타이밍 결정"
+                android:textSize="24sp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:textColor="#333333"
+                android:background="@drawable/backbu"/>
+
+            <Button
+                android:id="@+id/explain"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="설명"
+                android:textSize="24sp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:textColor="#333333"
+                android:background="@drawable/backbu"/>
+
+
+    </TableLayout>
+
+</LinearLayout>
